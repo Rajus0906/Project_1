@@ -7,7 +7,7 @@ class Coyote
   Coyote(float x, float y)
   {
     position = new PVector(x, y);
-    coyote = loadImage("coyote.png");
+    coyote = loadImage("coyote.png"); //https://static.wikia.nocookie.net/annoyingorangefanon/images/5/56/Wile_E_Coyote.png/revision/latest?cb=20110604192056
     coyote.resize(300,170);
     target = new PVector(random(width), random(height));
     
