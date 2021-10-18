@@ -7,7 +7,7 @@ class Runner
   Runner(float x, float y)
   {
     position = new PVector(x, y);
-    runner = loadImage("runningrunner.png");
+    runner = loadImage("runningrunner.png"); //https://www.pinclipart.com/picdir/middle/63-631381_roadrunner-clipart-transparent-wile-e-coyote-and-the.png
     runner.resize(150,150);
     target = new PVector(random(width), random(height));
     
